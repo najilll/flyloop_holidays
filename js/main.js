@@ -9,5 +9,5 @@ $(function(){
    if(s){$(this).show().css('opacity',0).animate({opacity:1},350)}else{$(this).hide()}})});
  $('#enq').on('submit',function(e){e.preventDefault();const d=Object.fromEntries(new FormData(this));
   const t=`Hi Flyloop Holidays! I'm ${d.name}. Interested in: ${d.service}. Travel date: ${d.date||'flexible'}. ${d.msg||''} (Ph: ${d.phone})`;
-  window.open('https://wa.me/910000000000?text='+encodeURIComponent(t),'_blank')});
+  window.open('https://wa.me/917356523300?text='+encodeURIComponent(t),'_blank')});
 });
